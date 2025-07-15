@@ -1,0 +1,101 @@
+.dashboard-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.dept-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+.call-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.call-button:hover {
+  background-color: #218838;
+}
+
+.queue-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.queue-item {
+  padding: 10px;
+  background: #f8f9fa;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.info-message {
+  color: #155724;
+  background-color: #d4edda;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.dashboard-chart-section {
+  margin-top: 40px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.chart-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.tab-selector {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.tab-button {
+  background: #f0f0f0;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.tab-button:hover {
+  background: #dfe8ff;
+}
+
+.active-tab {
+  background-color: #4e89ff;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
